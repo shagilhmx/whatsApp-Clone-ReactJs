@@ -1,0 +1,68 @@
+@media (min-width: 767px) {
+  .whatsAppList {
+    min-width: 300px;
+  }
+}
+
+.whatsAppUserClick {
+  animation: animate 1s ease-out;
+  background-color: #ebebeb;
+}
+@keyframes animate {
+  from {
+    background-color: skyblue;
+  }
+  to {
+    background-color: #ebebeb;
+  }
+}
+.containerTopNav::before {
+  content: '';
+  width: 100%;
+  background-color: #009688;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+}
+.inputFocusedClass {
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+.inputBlurClass {
+  background-color: #f6f6f6;
+  transition: background-color 0.5s ease;
+}
+.userListContainerclasses,
+.messageUIContainerClasses {
+  height: 100vh;
+}
+
+@media (min-width: 767px) {
+  .userListContainerclasses,
+  .messageUIContainerClasses {
+    height: 85vh;
+  }
+  .container {
+    top: 15px;
+    height: 85vh;
+  }
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+
+  background-color: white;
+  padding: 3px;
+}
