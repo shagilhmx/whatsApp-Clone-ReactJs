@@ -90,7 +90,7 @@ const MessageUi = ({
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default MessageUi;

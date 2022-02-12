@@ -7,6 +7,6 @@ const index = () => {
       <MessageUi/>
     </div>
   )
-}
+};
 
 export default index;
